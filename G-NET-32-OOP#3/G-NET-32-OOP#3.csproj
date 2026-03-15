@@ -6,6 +6,7 @@
     <RootNamespace>G_NET_32_OOP_3</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
 </Project>

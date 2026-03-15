@@ -28,6 +28,18 @@
             */
             #endregion
             #endregion
+
+
+            #region part 2 
+
+           CinemaName c1 = new CinemaName();
+            c1.OpenCinema();
+            c1.addticket(new IMAXTicket("Avengers", 100,true));
+            c1.addticket(new StandardTicket("Spiderman", 80,"3a"));
+            c1.addticket(new VIPTicket("Batman", 90, false));
+            c1.printalltickets();
+            c1.CloseCinema();   
+            #endregion
         }
     }
 }
